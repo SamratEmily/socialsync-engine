@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scope all plugin styles to avoid bleeding into WP admin */
+.sse-wrap * {
+    box-sizing: border-box;
+}
